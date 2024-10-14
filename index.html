@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon"  type="png/css" href="img/favicon.png"> 
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="jquery/jquery.js"> </script>
+    <title>Освітня Онлайн Платформа</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#menu" ).menu();
+    } );
+    </script>
+    <style>
+    .ui-menu { 
+        width: 150px;
+        transition: transform 0.3s ease;
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+       
+        <style>
+
+            .menu_menu{
+                display: flex;
+                justify-content: center;
+                background-color: white;
+            }
+    
+    
+            .menu{
+                width: 5%;
+                background-color: white;
+                padding-bottom: 10px;
+            }
+    
+            .mainmenubtn {
+                width: 70%;
+            background-color: white;
+                border: none;
+                cursor: pointer;
+                
+                margin-top:20px;
+            
+            }
+            .dropdown {
+                
+                display: inline-block;
+                background-color: white;
+                
+            }
+.dropdown-child {
+    width: 70%;
+    max-height: 0; 
+    overflow: hidden; 
+    background-color: white;
+    transition: max-height 0.7s ease, opacity 0.5s ease; 
+    opacity: 0; 
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown:hover .dropdown-child {
+    max-height: 500px; 
+    opacity: 1; 
+}
+
+
+            .dropdown-child a {
+                text-align: center;
+                align-items: center;
+                color: black;
+                padding: 20px;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+            }
+            
+            </style>
+            
+            
+            <div class="menu_menu">
+            <div class="dropdown">
+              <button class="mainmenubtn"><img src="img/menu.png" alt="" class="menu">
+                </button>
+                <div class="child">
+              <div class="dropdown-child">
+                <a class="list" href="index.html">Головна</a>
+                <a class="list" href="courses.html">Курси</a>
+                <a class="list" href="contacts.html">Контакти</a>
+                <a  class="list" href="blog.html">Блог</a>
+              </div>
+            </div>
+            </div>
+        </div>
+    
+    
+           
+           
+
+
+            
+    </header>
+    
+    
+    
+
+    <main>
+        
+        
+
+    <br />
+
+    <div class="container-cent"></div>
+    
+        <div class="course-card">
+            <h2  class="actualproblem"> Актуальність проблеми </h2>
+            
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/lp2Q3IusIVk?mute=1" frameborder="0" allowfullscreen class="video"></iframe>
+           
+    
+    <p class="actual">Приблизно 1,6 мільйона українських дітей нині знаходяться на тимчасово 
+        окупованих українських територіях. Приблизно 615 тисяч із них – шкільного віку.
+        Більшість з цих дітей не мають доступу до базової освіти.
+        
+        Ми команда що поставила собі за ціль спростити цим дітям
+        доступ до української освіти. Адже майбутнє кожної країни - молодь. 
+        
+        Тому ми вирішили створити освітню онлайн-платформу, де в ігровій формі можна 
+        буде вивчати українську мову, літературу, математику, фізику та інші предмети. 
+        
+        За проходження уроків в додатку користувач отримуватиме віртуальні нагороди, а
+        самі уроки будуть подані в інтерактивному форматі.
+        
+        Також наш додаток буде корисним і для учнів, що продовжують навчання в 
+        українських школах: зміст курсів відповідатиме шкільній програмі, тож додаток
+        буде корисний школярам при підготовці до уроків та контрольних.
+        
+        Дякую за увагу. 
+        42 - підтримайте освіту в Україні!
+    </p>
+   </div>
+</div>
+
+<div class="counter">
+<h2>Презентація нашого проєкту</h2>
+   <div class="container-cent1">
+        <video src="videos/video.mp4" class="video_video" width="900px" height="700px" controls muted>
+
+        </video>
+   </div>
+
+
+<div class="countdown-container">
+    <h1>До релізу залишилося:</h1>
+    <div id="countdown">
+        <div class="time-section">
+            <span id="days">00</span>
+            <div class="label">ДНІВ</div>
+        </div>
+        <div class="time-section">
+            <span id="hours">00</span>
+            <div class="label">ГОДИН</div>
+        </div>
+        <div class="time-section">
+            <span id="minutes">00</span>
+            <div class="label">ХВИЛИН</div>
+        </div>
+        <div class="time-section">
+            <span id="seconds">00</span>
+            <div class="label">СЕКУНД</div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/counter.js"></script>
+
+
+
+<div class="container_cent">
+    <div>
+     <img  src="img/hiring.png" class="hiring">
+    </div>
+    <div class="course-card">
+        <h2>Ми наймаємо!</h2>
+        <p class="">Ми шукаємо можливості утворення зв'язків з партнерами. </p>
+           <p class="">Шукаємо спонсорів та викладачів.</p> 
+            <a href="contacts.html" class="">ЗВ'ЯЖІТЬСЯ З НАМИ</a>
+    </div>
+    
+</div>
+
+<div class="container_cent">
+    <div>
+     <img class="osvita" src="img/osvita.png" >
+     </div>
+    <div class="course-card">
+        <h2>Наші партнери</h2>
+        <p>Наразі ми співпрацюємо з чудовим фондом Освіта 360. </p>
+        
+            <a href="https://osvita360.com/">САЙТ ПАРТНЕРІВ</a>
+    </div>
+</div>
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="col">
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <p>
+                instagram
+                </p>
+            </div>    
+    
+            <div class="col">
+                <a href="https://www.facebook.com/?locale=uk_UA">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <p>
+                    facebook
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="copyrights">
+            <span>All rights reserved 2024</span>
+        </div>
+    </footer>
+    
+</body>
+</html>
