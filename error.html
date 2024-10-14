@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon"  type="png/css" href="img/favicon.png"> 
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <script type="text/javascript" src="jquery/jquery.js"> </script>
+    <title>Освітня Онлайн Платформа</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#menu" ).menu();
+    } );
+    </script>
+    <style>
+    .ui-menu { width: 150px;}
+    
+    </style>
+</head>
+<body>
+    <header>
+       <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+       
+       <style>
+
+        .menu_menu{
+            display: flex;
+            justify-content: center;
+            background-color: white;
+        }
+
+
+        .menu{
+            width: 5%;
+            background-color: white;
+            padding-bottom: 10px;
+        }
+
+        .mainmenubtn {
+            width: 70%;
+        background-color: white;
+            border: none;
+            cursor: pointer;
+            
+            margin-top:20px;
+        
+        }
+        .dropdown {
+            
+            display: inline-block;
+            background-color: white;
+            
+        }
+        .dropdown-child {
+            width: 70%;
+            display: none;
+            background-color: white;
+            
+            
+        }
+
+.child{
+display: flex;
+justify-content: center;
+}
+
+
+        .dropdown-child a {
+            text-align: center;
+            align-items: center;
+            color: black;
+            padding: 20px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+        }
+        .dropdown:hover .dropdown-child {
+            display: block;
+        }
+        </style>
+        
+        
+        <div class="menu_menu">
+        <div class="dropdown">
+          <button class="mainmenubtn"><img src="img/menu.png" alt="" class="menu">
+            </button>
+            <div class="child">
+          <div class="dropdown-child">
+            <a class="list" href="index.html">Головна</a>
+            <a class="list" href="courses.html">Курси</a>
+            <a class="list" href="contacts.html">Контакти</a>
+            <a  class="list" href="blog.html">Блог</a>
+          </div>
+        </div>
+        </div>
+    </div>
+
+
+       
+       
+       
+    </header>
+    
+  
+
+
+
+
+
+
+    
+    <style>
+        main div{
+            text-align: center;
+            border: solid rgb(255, 255, 255);
+            border-width: 1px;
+            background:linear-gradient(to bottom, #ffffff, #ffffff) ;
+        }
+
+        .error{
+            padding: 30px;
+            border-radius: 8px;
+        }
+        </style>
+        
+        <main>
+            <div class="error">
+                <h1><i class="fa-solid fa-lock"></i></h1>
+                <h1>На жаль, виникла помилка</h1>
+            <h2>Можливо курс заблокований або стався збій</h2>
+            <h2>Спробуйте пізніше</h2>
+        </div>
+            
+        </main>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="col">
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <p>
+                instagram
+                </p>
+            </div>    
+    
+            <div class="col">
+                <a href="https://www.facebook.com/?locale=uk_UA">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <p>
+                    facebook
+                </p>
+                </a>
+            </div>
+        </div>
+        <div class="copyrights">
+            <span>All rights reserved 2024</span>
+        </div>
+    </footer>
+    
+</body>
+</html>

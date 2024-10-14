@@ -1,0 +1,57 @@
+.menu_menu{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.menu{
+    width: 5%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.mainmenubtn {
+    width: 70%;
+background-color: white;
+    border: none;
+    cursor: pointer;
+    
+    margin-top:20px;
+
+}
+.dropdown {
+    
+    display: inline-block;
+    background-color: white;
+    
+}
+.dropdown-child {
+width: 70%;
+max-height: 0; 
+overflow: hidden; 
+background-color: white;
+transition: max-height 0.7s ease, opacity 0.5s ease; 
+opacity: 0; 
+}
+
+.child {
+display: flex;
+justify-content: center;
+}
+
+.dropdown:hover .dropdown-child {
+max-height: 500px; 
+opacity: 1; 
+}
+
+
+.dropdown-child a {
+    text-align: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}

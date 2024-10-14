@@ -1,0 +1,978 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Changed to a more modern font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  #b8b2ad; /* Added a subtle background color */
+}
+
+header {
+   
+    background-color: #9e958d; /* Softened header color */
+    color: black;
+    text-align: center;
+    
+   
+    
+}
+
+
+.logo{
+    width: 40%;
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 255); /* Lighter nav background */
+    color: rgb(208, 203, 203);
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+/*.menu_menu{
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    
+    justify-content: center;
+    
+    
+
+}*/
+
+/*.menu{
+    align-items: center;
+    padding-left: 600px;
+    font-family: "Pacifico", cursive;
+}*/
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changed to inline-block for better spacing */
+    margin: 0 15px; /* Adjusted margin for better spacing */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1rem; /* Slightly increased font size */
+}
+
+nav ul li a:hover {
+    color: #333; /* Darkened hover color */
+    opacity: 0.9;
+}
+
+h3{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    
+}
+
+
+
+main {
+    
+    background-color:  #b8b2ad; /* Softer background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+main div a {
+    color: #3c3b3b;
+    opacity: 0.85;
+    text-decoration: none;
+    font-size: 1.1rem; /* Increased font size */
+}
+
+a:hover{
+ color: black;
+ opacity:90%;
+
+}
+
+article {
+    padding: 30px; /* Increased padding */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adjusted min width */
+    gap: 30px; /* Increased gap for better spacing */
+    margin: 20px; /* Increased margin */
+}
+
+.course-card {
+    
+    
+  background-color: #b8b2ad;
+    background: linear-gradient(to bottom, #b8b2ad, #b8b2ad);
+    text-align: start;
+}
+
+.course-card5 {
+    font-family: "Pacifico", cursive;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+      background: linear-gradient(to bottom, white, white);
+      text-align: start;
+  }
+
+
+.course-card2 {
+    border: 1px solid #ffffff;
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Increased padding */
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    text-align: start;
+    margin-left: -10px;
+    
+}
+  
+
+.course-card1 {
+    
+    
+    background-color: #ffffff;
+      background: linear-gradient(to bottom, #ffffff, #ffffff);
+      text-align: start;
+  }
+
+  .video{
+    float: left;
+    width: 50%;
+    padding: 20px;
+   
+  }
+
+  h1{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+  }
+
+  
+  h2{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+  }
+
+  .label{
+    font-family: "Pacifico", cursive;
+  }
+  
+
+  .actual{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .actualproblem{
+    padding-top: 0px;
+    font-size: 40px;
+  }
+
+
+.hiring{
+    width: 80%;
+}
+
+
+.course-card p{
+    font-size: 26px;
+    font-family: "Pacifico", cursive;
+}
+
+
+
+.course-card a{
+    font-family: "Pacifico", cursive;
+    color:#000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}s
+
+.course-card a:hover{
+   opacity: 90%;
+}
+
+.osvita{
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #ffffff; /* Lighter footer background */
+    color: black;
+    text-align: center;
+    padding: 1rem; /* Increased padding */
+    position: static;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.socmed{
+    width: 20%;
+}
+
+footer .copyrights {
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: solid grey;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 20px 60px 10px 60px; /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    margin: 10px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .col a {
+    font-size: 52px; /* Slightly increased icon size */
+    color: #000000;
+}
+
+.container .col a i:hover {
+    opacity: 0.9;
+}
+
+.container .col a i {
+    font-size: 52px; /* Slightly increased icon size */
+    color: #000000;
+}
+
+.container .col a i:hover {
+    opacity: 0.9;
+}
+
+.container .col p {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px; /* Slightly decreased font size */
+    font-weight: bold; /* Changed to bold */
+    font-family: 'Frank Ruhl Libre', serif; /* Changed font for emphasis */
+}
+
+.empty_container {
+    height: 75px;
+    width: 100vh;
+}
+
+.container_cent {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.counter{
+    background-color:white;
+    width: 100%;
+}
+
+.container_cent1 {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.countdown-container {
+    text-align: center;
+    background: linear-gradient(to center, #e8d1b6, #FFCD8C) ;/* Softer countdown color */
+    padding: 20px; /* Added padding */
+    border-radius: 8px; /* Rounded corners */
+    padding-bottom: 50px;
+}
+
+.container_around {
+    padding: 20px 60px 10px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#contactForm {
+    background-color: #ffffff;
+padding: 50px;
+margin-bottom: 90px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+
+
+.photo{
+    padding: 70px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Increased margin */
+}
+
+.time-section {
+    margin: 0 20px; /* Adjusted margin */
+}
+
+.time-section span {
+    font-size: 4rem; /* Increased font size */
+    font-weight: bold;
+    display: block;
+    color: #3c3b3b; /* Darkened text color */
+}
+
+.label {
+    font-size: 1.5rem; /* Increased label font size */
+    margin-top: 5px;
+}
+
+#Form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+
+
+.course-card4 {
+    margin-top: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 8px; /* Rounded corners */
+    padding: 35px; /* Increased padding */
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    text-align: start;
+    font-family: "Pacifico", cursive;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+    font-size: 24px;
+    border: none;
+    text-align: right;
+    cursor: pointer;
+    background: #ffffff;
+    width: 26px;
+    height: 24px;
+    padding-left: 80%;
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.visible {
+    padding-top: 5px;
+    max-height: 500px; /* Adjust as per content size */
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.arrow_button:hover {
+opacity: 0.9;
+}
+
+/* .button_text {
+flex-grow: 1;
+text-align: center;
+} */
+
+.fa-arrow-right {
+transition: transform 0.3s ease;
+font-size: 24px;
+}
+
+/* .blog-hero {
+    background-color: #3E4A59;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+} */
+
+.blog-hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.blog-hero p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+/* Blog list section */
+.blog-list {
+    font-family: "Pacifico", cursive;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.blog-item:hover {
+    transform: scale(1.05);
+}
+
+.blog-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.blog-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-info p {
+    font-size: 1em;
+    color: #555;
+}
+
+.btn-read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-read-more:hover {
+    background-color: #45A049;
+}
+
+
+.list{
+    font-family: "Pacifico", cursive;
+    text-decoration: none;
+}
+
+.menuimg{
+    width: 20%;
+    padding-top: 10px;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+iframe {
+    flex: 1; 
+    max-width: 600px;
+}
+
+.course-card-container {
+    flex: 1; 
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+    iframe{
+        width: 90%;
+        height: 90%;
+    }
+    .video{
+        width: 90%;
+    }
+
+    .actualproblem{
+        padding-top: 0px;
+        font-size: 30px;
+      }
+
+    .course-card4 {
+        margin-top: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 8px; /* Rounded corners */
+        padding: 35px; /* Increased padding */
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+        text-align: start;
+        font-family: "Pacifico", cursive;
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .photo{
+        padding-left: 350px;
+        width: 300px;
+        height: 460px;
+        padding-right: 300px;
+    }
+
+
+    .container_around{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+
+    iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    .hiring{
+        width: 80%;
+    }
+
+    .osvita{
+        width: 80%;
+    }
+
+    .video_video{
+        width: 80%;
+        padding-top: 0;
+    }
+
+    .course-card4 {
+        margin-top: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 8px; /* Rounded corners */
+        padding: 35px; /* Increased padding */
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+        text-align: start;
+        font-family: "Pacifico", cursive;
+        font-size: 18px;
+        width: 85%;
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+
+    .course-card4 {
+        margin-top: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 8px; /* Rounded corners */
+        padding: 35px; /* Increased padding */
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+        text-align: start;
+        font-family: "Pacifico", cursive;
+        font-size: 16px;
+        width: 60%;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    iframe{
+        width: 40%;
+        height: 80%;
+    }
+
+    .course-card4 {
+        margin-top: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 8px; /* Rounded corners */
+        padding: 35px; /* Increased padding */
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+        text-align: start;
+        font-family: "Pacifico", cursive;
+        font-size: 16px;
+        width: 40%;
+        margin-left: 260px;
+        margin-right: 30px;
+    }
+
+    .course-card p{
+        font-size: 22px;
+        font-family: "Pacifico", cursive;
+    }
+    
+
+    #contactForm {
+        background-color: #ffffff;
+    padding: 50px;
+    margin-bottom: 90px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 600px;
+        padding-bottom: 30px;
+        width: 75%;
+    }
+
+
+    .course-card {
+    
+    width: 80%;
+    font-size: 20px;
+        background-color: #b8b2ad;
+          background: linear-gradient(to bottom, #b8b2ad, #b8b2ad);
+          text-align: start;
+      }
+
+    .logo{
+        width: 60%;
+        
+    }
+
+   .error{
+    padding: 20px;
+    font-size: 14px;
+   }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .col {
+        margin: 10px 0;
+    }
+
+    .media{
+        padding-right: 450px;
+    }
+
+    .container_cent {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    #countdown {
+        flex-wrap: wrap;
+    }
+
+    .time-section {
+        margin: 10px;
+    }
+
+    .time-section span {
+        font-size: 2rem;
+    }
+
+    .label {
+        font-size: 1rem;
+        
+    }
+
+    #Form {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .actualproblem{
+        padding-top: 0px;
+        font-size: 20px;
+      }
+
+    .photo{
+        padding-left: 350px;
+        width: 260px;
+        height: 420px;
+        padding-right: 350px;
+    }
+
+
+    .course-card p{
+        font-size: 18px;
+        font-family: "Pacifico", cursive;
+    }
+
+    #contactForm {
+        background-color: #ffffff;
+    padding: 50px;
+    margin-bottom: 90px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 600px;
+        padding-bottom: 30px;
+        width: 60%;
+    }
+
+    .error{
+     padding: 30px;
+     font-size: 12px;
+     width: 80%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 520px) {
+
+iframe{
+        width: 25%;
+        height: 25%;
+    }
+    .course-card4 {
+        margin-top: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 8px; /* Rounded corners */
+        padding: 35px; /* Increased padding */
+        background: linear-gradient(to bottom, #ffffff, #ffffff);
+        text-align: start;
+        font-family: "Pacifico", cursive;
+        font-size: 14px;
+        width: 25%;
+        margin-left: 320px;
+        margin-right: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+ 
+    .list{
+        font-family: "Pacifico", cursive;
+        text-decoration: none;
+        font-size: 15px;
+        
+    }
+    
+    .course-card p{
+        font-size: 14px;
+        font-family: "Pacifico", cursive;
+    }
+
+
+    .course-card a{
+        font-family: "Pacifico", cursive;
+        color:#000000;
+        text-decoration: none;
+        text-align: center;
+        font-size: 22px;
+    }
+
+   
+    
+
+    h2{
+        font-size: medium;
+    }
+
+    h3{
+        font-size: medium;
+    }
+
+
+    .logo{
+        width: 80%;
+        
+    }
+
+
+    header, main, footer {
+        padding: 0px;
+    }
+
+    .course-card {
+        margin-left: 0;
+
+    }
+
+    .container .col p {
+        font-size: 24px;
+    }
+
+    .time-section span {
+        font-size: 1.5rem;
+    }
+
+    .label {
+        font-size: 0.8rem;
+    }
+
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 385px) {
+
+    .list{
+        font-family: "Pacifico", cursive;
+        text-decoration: none;
+        font-size: 10px;
+        
+    }
+    iframe{
+        width: 20%;
+        height: 20%;
+    }
+
+
+        .course-card4 {
+            margin-top: 30px;
+            border: 1px solid #ffffff;
+            border-radius: 8px; /* Rounded corners */
+            padding: 35px; /* Increased padding */
+            background: linear-gradient(to bottom, #ffffff, #ffffff);
+            text-align: start;
+            font-family: "Pacifico", cursive;
+            font-size: 13px;
+            width: 20%;
+            margin-left: 350px;
+            margin-right: 30px;
+        }
+   
+
+    .course-card p{
+        font-size: 12px;
+        font-family: "Pacifico", cursive;
+    }
+
+    .course-card {
+    
+        width: 63%;
+        font-size: 20px;
+            background-color: #b8b2ad;
+              background: linear-gradient(to bottom, #b8b2ad, #b8b2ad);
+              text-align: start;
+          }
+
+    .error{
+  
+     font-size: 12px;
+     width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+    .list{
+        font-family: "Pacifico", cursive;
+        text-decoration: none;
+        font-size: 8px;
+        
+    }
+ 
+}
+
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+}
